@@ -14,8 +14,8 @@ function App() {
           <Header />
         <BrowserRouter >
           <main className="flex-grow">
-            <Routes>
               <Route path="/" element={<Home />} />
+            <Routes>
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/resume" element={<Resume />} />
