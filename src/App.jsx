@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col bg-custom-image bg-no-repeat bg-cover absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
       <React.StrictMode>
-        <BrowserRouter basename="/">
           <Header />
+        <BrowserRouter >
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
