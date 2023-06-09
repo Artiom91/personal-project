@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // Установите желаемый базовый путь здесь
+  base: '/tweak/', // Установите желаемый базовый путь здесь
   plugins: [react()],
   resolve: {
     alias: {
