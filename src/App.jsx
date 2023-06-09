@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col bg-custom-image bg-no-repeat bg-cover absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
       <React.StrictMode>
-          <Header />
         <BrowserRouter >
           <main className="flex-grow">
-              <Route path="/" element={<Home />} />
+          <Header />
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/resume" element={<Resume />} />
